@@ -20,6 +20,8 @@ public class Evasion : BaseUnityPlugin
 		evasion.Description.English("Reduces the stamina usage of dodging.");
 		evasion.Name.German("Ausweichen");
 		evasion.Description.German("Reduziert die benötigte Ausdauer um auszuweichen.");
+		evasion.Name.Chinese("闪避");
+		evasion.Description.Chinese("减少闪避的耐力消耗");
 		evasion.Configurable = true;
 
 		Assembly assembly = Assembly.GetExecutingAssembly();
